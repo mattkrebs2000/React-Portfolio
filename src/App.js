@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from "./components/layout/Header.js";
-import Todos from "./components/Todos.js";
-import AddTodos from "./components/AddTodos.js";
+import Navbar from "./components/NavBar.js";
+
+
+
 import { v4 as uuid } from "uuid";
 
 class App extends Component {
@@ -25,6 +26,8 @@ class App extends Component {
       },
     ],
   };
+
+
 
   markComplete4 = (id) => {
     this.setState({
@@ -54,13 +57,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <AddTodos AddAToDo={this.ADDthisTodo} />
-        <Todos
-          try={this.state.todos}
-          markComplete3={this.markComplete4}
-          clickDelete2={this.clickDelete}
-        />
+        <Navbar />
+      
       </div>
     );
   }

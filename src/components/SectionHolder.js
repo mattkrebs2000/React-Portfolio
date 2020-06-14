@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import FlipCard2 from "./FlipCard2.js";
 
 export default class SectionHolder extends Component {
     render() {
         return (
             <div id="background">
-                What the hell?
+               <FlipCard2 />
             </div>
         )
     }

@@ -6,6 +6,7 @@ import SectionHolder from "./components/SectionHolder.js";
 
 
 
+
 import { v4 as uuid } from "uuid";
 
 class App extends Component {
@@ -63,13 +64,11 @@ class App extends Component {
   };
   render() {
     return (
-      <div
-       
-        className="App"
-      >
+      <div className="App">
         <Navbar />
         <Section1 />
         <SectionHolder />
+       
       </div>
     );
   }

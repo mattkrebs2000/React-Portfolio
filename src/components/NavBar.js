@@ -58,7 +58,7 @@ export default class NavBar extends Component {
                     data-toggle="collapse"
                     data-target=".navbar-collapse.show"
                     activeClass="active"
-                    to="background"
+                    to="section2"
                     spy={true}
                     smooth={true}
                     offset={-70}

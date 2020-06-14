@@ -3,14 +3,17 @@ import './App.css';
 import Navbar from "./components/NavBar.js";
 import Section1 from "./components/Section1.js";
 import SectionHolder from "./components/SectionHolder.js";
-
-
-
-
 import { v4 as uuid } from "uuid";
 
 class App extends Component {
   state = {
+    AboutMeData: [
+      { id: uuid(), frontImage: "../images/UPenn.png", value: 4 },
+      { id: uuid(), frontImage: "../images/Teaching.png", value: 0 },
+      { id: uuid(), frontImage: "../images/Dingsda.png", value: 0 },
+      { id: uuid(), frontImage: "../images/Geogebra.png", value: 0 },
+    ],
+
     todos: [
       {
         id: uuid(),
@@ -30,8 +33,6 @@ class App extends Component {
     ],
   };
 
-
-
   markComplete4 = (id) => {
     this.setState({
       todos: this.state.todos.map((data) => {
@@ -49,10 +50,6 @@ class App extends Component {
     });
   };
 
-
-
-
-  
   ADDthisTodo = (title) => {
     const neww = {
       id: uuid(),
@@ -67,9 +64,12 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Section1 />
-        <SectionHolder />
+        
+
+            <SectionHolder data={this.state.AboutMeData} />
+          </div>
        
-      </div>
+      
     );
   }
 }

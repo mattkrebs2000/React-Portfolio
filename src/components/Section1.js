@@ -27,20 +27,14 @@ export default class Section1 extends Component {
     const adjust = winScroll / 8;
     const opacity = 140 - adjust * 2;
     const opacity2 = 140 - adjust * 12;
-    const size = 60 - adjust;
-    const size2 = 30 - 0.5 * adjust;
-    const moveLeft = winScroll;
-    const moveTop = winScroll / 1.5;
+   
 
     console.log("this is the height" + winScroll);
 
     this.setState({ winScroll: winScroll });
     this.setState({ oppositeOpacity: opacity });
     this.setState({ oppositeOpacity2: opacity2 });
-    this.setState({ fontSize: size });
-    this.setState({ fontSize2: size2 });
-    this.setState({ moveLeft: moveLeft });
-    this.setState({ moveTop: moveTop });
+  
   };
 
   render() {
@@ -53,13 +47,13 @@ export default class Section1 extends Component {
               <div
                 style={{
                   opacity: this.state.oppositeOpacity2 + "%",
-                  marginTop: this.state.moveTop + "px",
+                 
                 }}
                 id="display"
               >
                 <p
                   style={{
-                    fontSize: this.state.fontSize + "px",
+                  
                   }}
                   id="name"
                 >
@@ -68,7 +62,7 @@ export default class Section1 extends Component {
                 <p></p>
                 <p
                   style={{
-                    fontSize: this.state.fontSize2 + "px",
+                  
                   }}
                   id="title"
                 >

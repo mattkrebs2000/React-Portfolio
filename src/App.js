@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from "./components/NavBar.js";
+import Section1 from "./components/Section1.js";
+import SectionHolder from "./components/SectionHolder.js";
 
 
 
@@ -45,6 +47,11 @@ class App extends Component {
       todos: [...this.state.todos.filter((data) => data.id !== id)],
     });
   };
+
+
+
+
+  
   ADDthisTodo = (title) => {
     const neww = {
       id: uuid(),
@@ -56,9 +63,13 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="App">
+      <div
+       
+        className="App"
+      >
         <Navbar />
-      
+        <Section1 />
+        <SectionHolder />
       </div>
     );
   }

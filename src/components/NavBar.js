@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-
-
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 export default class NavBar extends Component {
+
+
   render() {
     return (
       <div>
@@ -34,25 +35,37 @@ export default class NavBar extends Component {
                   />
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     id="toplink"
                     className="nav-link"
                     href="#hero1"
                     data-toggle="collapse"
                     data-target=".navbar-collapse.show"
+                    activeClass="active"
+                    to="hero1"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                  <Link
                     className="nav-link"
                     href="#section2"
                     data-toggle="collapse"
                     data-target=".navbar-collapse.show"
+                    activeClass="active"
+                    to="background"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
                   >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a

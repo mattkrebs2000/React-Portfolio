@@ -1,7 +1,15 @@
+html {
+
+  height:3000px;
+}
+
+
 html, body{
   margin:0px; padding:0px;
    font-family: 'Roboto Slab', serif;
 max-width: 100%;
+
+
 
   overflow-x: hidden; 
  
@@ -386,7 +394,7 @@ color:white;
   animation: EAT 2s;
 }
 
-#section2,#section3,#section4, .tint:before, .btn-liquid{
+#background, #section2,#section3,#section4, .tint:before, .btn-liquid{
   background: linear-gradient(-90deg, #8884FF, #217487, #88B161,#8884FF);
 
 	background-size: 400% 400%;
@@ -639,4 +647,10 @@ border: 4px solid red;
 @keyframes EAT {
   from { opacity: -100%}
   to   { opacity: 100%}
+}
+
+#background {
+
+
+min-height: 1000px;
 }

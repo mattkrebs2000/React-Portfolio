@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import FlipCard2 from "./FlipCard2.js";
+import FlipCard3 from "./FlipCard3.js"
 import Skills from './Skills.js';
 
 export default class SectionHolder extends Component {
@@ -24,23 +25,43 @@ export default class SectionHolder extends Component {
             </section>
 
             <section id="myskills">
-              <div className="headings" style={{paddingBottom:"30px"}}>My Skills</div>
+              <div className="headings" style={{ paddingBottom: "30px" }}>
+                My Skills
+              </div>
               <div className="content d-flex justify-content-center">
-              <div className= "row img-responsive">
-              <div className= "row justify-content-center">
-              
+                <div className="row img-responsive">
+                  <div className="row justify-content-center">
+                    {this.props.skills.map((info) => (
+                      <Skills
+                        id={info.nameofid}
+                        title={info.title}
+                        image={info.Image}
+                        alt={info.alt}
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section
+              id="section3"
+              className="content row img-responsive d-flex justify-content-center"
+            >
+              <div className="headings">Portfolio</div>
 
-                {this.props.skills.map((info) => (
-                  <Skills
-                    id={info.nameofid}
-                    title={info.title}
-                    image={info.Image}
-                    alt={info.alt}
+             
+                {this.props.data2.map((info) => (
+                  <FlipCard3
+                    key={info.nameofID}
+                    image={info.frontImage}
+                    text={info.text}
+                    title={info.title2}
+                    weblink={info.Weblink}
+                    Gitlink={info.Gitlink}
+                    Youtube={info.Youtube}
                   />
                 ))}
-              </div>
-              </div>
-              </div>
+           
             </section>
           </div>
         );

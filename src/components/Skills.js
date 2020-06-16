@@ -2,10 +2,20 @@ import React, { Component } from "react";
 import { Link } from "react-scroll";
 
 class Skills extends Component {
+
   render() {
+
+  function changeBackground(e){
+
+e.target.style.transform = "scale(2)";
+e.target.style.overflow = "hidden";
+
+
+  }
+
+
     return (
       <div>
-        
         <Link
           to="Section3"
           spy={true}
@@ -16,6 +26,7 @@ class Skills extends Component {
           <figure id={this.props.id} className="tint">
             <img
               className="photos"
+              onMouseOver={changeBackground}
               data-toggle="tooltip"
               data-html="true"
               title={this.props.title}

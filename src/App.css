@@ -217,7 +217,7 @@ margin-right:15px;
   background-color: white;
  
  border-top:40px;
- padding-right: 15px;
+ padding-right: 30px;
  padding-left:30px;
   padding-top:40px;
 
@@ -680,4 +680,10 @@ a.active {
 
 padding-bottom: 69.5px;
 
+}
+section#section3.content.row.img-responsive.d-flex.justify-content-center {
+
+
+  padding-right: 0px;
+  margin-right: 0px;
 }

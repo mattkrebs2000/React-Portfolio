@@ -21,10 +21,6 @@ export default class NavBar extends Component {
                   <Link
                     id="toplink"
                     className="nav-link"
-                    href="#hero1"
-                    data-toggle="collapse"
-                    data-target=".navbar-collapse.show"
-                    activeClass="active"
                     to="hero1"
                     spy={true}
                     smooth={true}
@@ -37,10 +33,6 @@ export default class NavBar extends Component {
                 <li className="nav-item">
                   <Link
                     className="nav-link"
-                    href="#section2"
-                    data-toggle="collapse"
-                    data-target=".navbar-collapse.show"
-                    activeClass="active"
                     to="section2"
                     spy={true}
                     smooth={true}
@@ -51,14 +43,16 @@ export default class NavBar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a
+                 <Link
                     className="nav-link"
-                    href="#section3"
-                    data-toggle="collapse"
-                    data-target=".navbar-collapse.show"
+                    to="section3"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
                   >
                     Portfolio
-                  </a>
+                  </Link>
                 </li>
                 <li id="bottomLink" className="nav-item">
                   <a

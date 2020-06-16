@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 
 
-
-
 class FlipCard2 extends Component {
   render() {
     return (

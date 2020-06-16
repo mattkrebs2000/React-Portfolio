@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import $ from "jquery";
+import { Link } from "react-scroll";
 
 
 export default class Button extends Component {
@@ -11,11 +12,26 @@ export default class Button extends Component {
                 opacity: "100%",
               }}
               id="newButton"
+              className="btn-liquid"
             >
-              <a href="#myskills" className="btn-liquid">
-                <span className="extra">Click to see my Skills</span>
-              </a>
-</div>
+             
+                <Link
+                  to="myskills"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}
+                >
+                  <span
+                    style={{ color: "white" }}
+                    className="extra"
+                  >
+                    Click to see my Skills
+                   
+                  </span>
+                </Link>
+             
+            </div>
           </div>
         );
     }

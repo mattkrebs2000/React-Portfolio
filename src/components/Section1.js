@@ -8,10 +8,7 @@ export default class Section1 extends Component {
     winScroll: 0,
     oppositeOpacity: 100,
     oppositeOpacity2: 100,
-    fontSize: 60,
-    fontSize2: 30,
-    moveLeft: 0,
-    moveTop: 0,
+    
   };
 
   componentDidMount() {
@@ -28,9 +25,6 @@ export default class Section1 extends Component {
     const opacity = 140 - adjust * 2;
     const opacity2 = 140 - adjust * 12;
    
-
-    console.log("this is the height" + winScroll);
-
     this.setState({ winScroll: winScroll });
     this.setState({ oppositeOpacity: opacity });
     this.setState({ oppositeOpacity2: opacity2 });

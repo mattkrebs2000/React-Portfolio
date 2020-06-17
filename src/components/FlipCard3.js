@@ -18,15 +18,15 @@ class FlipCard3 extends Component {
               <p style={{fontSize: "20px"}}>{this.props.title}</p>
               <p style={backStyle}>{this.props.text}</p>
               <p style={{color:"white !important"}}>
-                <a href="https://mattkrebs1974.github.io/Word-Guess-Game/">
+                <a href={this.props.weblink}>
                   Website
                 </a>
 
                 <a
-                  class="btn btn-lg btn-social-icon btn-github btn-dark"
-                  href="https://github.com/mattkrebs1974/Word-Guess-Game"
+                  className="btn btn-lg btn-social-icon btn-github btn-dark"
+                  href={this.props.Gitlink}
                 >
-                  <i class="fa fa-github fa-2x"></i>
+                  <i className="fa fa-github fa-2x"></i>
                 </a>
               </p>
             </div>

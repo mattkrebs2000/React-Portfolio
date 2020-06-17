@@ -14,7 +14,7 @@ export default class SectionHolder extends Component {
                 <div className="row img-responsive">
                   {this.props.data.map((info) => (
                     <FlipCard2
-                      key={info.id}
+                      key={info.key}
                       image={info.frontImage}
                       text={info.text}
                       title={info.title2}
@@ -22,46 +22,48 @@ export default class SectionHolder extends Component {
                   ))}
                 </div>
               </div>
-            </section>
-
-            <section id="myskills">
-              <div className="headings" style={{ paddingBottom: "30px" }}>
-                My Skills
-              </div>
-              <div className="content d-flex justify-content-center">
-                <div className="row img-responsive">
-                  <div className="row justify-content-center">
-                    {this.props.skills.map((info) => (
-                      <Skills
-                        id={info.nameofid}
-                        title={info.title}
-                        image={info.Image}
-                        alt={info.alt}
-                      />
-                    ))}
+              <section id="myskills">
+                <div className="headings" style={{ paddingBottom: "30px" }}>
+                  My Skills
+                </div>
+                <div className="content d-flex justify-content-center">
+                  <div className="row img-responsive">
+                    <div className="row justify-content-center">
+                      {this.props.skills.map((info) => (
+                        <Skills
+                          nameofprop={info}
+                          key={info.id}
+                          id={info.nameofid}
+                          title={info.title}
+                          image={info.Image}
+                          alt={info.alt}
+                          showRelated = {this.props.showRelated}
+                        />
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
+              </section>
             </section>
+
             <section
               id="section3"
               className="content row img-responsive d-flex justify-content-center"
             >
               <div className="headings">Portfolio</div>
 
-             
-                {this.props.data2.map((info) => (
-                  <FlipCard3
-                    key={info.nameofID}
-                    image={info.frontImage}
-                    text={info.text}
-                    title={info.title2}
-                    weblink={info.Weblink}
-                    Gitlink={info.Gitlink}
-                    Youtube={info.Youtube}
-                  />
-                ))}
-           
+              {this.props.data2.map((info) => (
+                <FlipCard3
+                  key={info.id}
+                  name={info.nameofID}
+                  image={info.frontImage}
+                  text={info.text}
+                  title={info.title2}
+                  weblink={info.Weblink}
+                  Gitlink={info.Gitlink}
+                  Youtube={info.Youtube}
+                />
+              ))}
             </section>
           </div>
         );

@@ -1,23 +1,23 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 
+
 class Skills extends Component {
 
   render() {
 
-  function changeBackground(e){
+    const {nameofid} = this.props.nameofprop;
 
+  function changeBackground(e){
 e.target.style.transform = "scale(2)";
 e.target.style.overflow = "hidden";
-
-
   }
 
 
     return (
       <div>
         <Link
-          to="Section3"
+          to="section3"
           spy={true}
           smooth={true}
           offset={-70}
@@ -27,6 +27,7 @@ e.target.style.overflow = "hidden";
             <img
               className="photos"
               onMouseOver={changeBackground}
+              onClick={this.props.showRelated.bind(this,nameofid)}
               data-toggle="tooltip"
               data-html="true"
               title={this.props.title}
@@ -44,5 +45,8 @@ e.target.style.overflow = "hidden";
     );
   }
 }
+
+
+
 
 export default Skills;

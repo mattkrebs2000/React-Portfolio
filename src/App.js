@@ -61,11 +61,11 @@ class App extends Component {
         nameofID: "teamguessing",
         frontImage: "../images/TeamGuessing.png",
         title2: "Team Guessing Game",
-        skill: "react",
-        skill2: "",
-        skill3: "",
-        skill4: "",
-        skill5: "",
+        skill: "html",
+        skill2: "javascript",
+        skill3: "css",
+        skill4: "bootstrap",
+        skill5: "jquery",
         text:
           "If you like the NFL and Wheel of Fortune this might be the game for you.",
         Weblink: "https://mattkrebs1974.github.io/Word-Guess-Game/",
@@ -77,11 +77,11 @@ class App extends Component {
         nameofID: "weather",
         frontImage: "../images/TriviaChallenge.png",
         title2: "Weather Trivia Challenge",
-        skill: "react",
-        skill2: "",
-        skill3: "",
-        skill4: "",
-        skill5: "",
+        skill: "css",
+        skill2: "html",
+        skill3: "javascript",
+        skill4: "bootstrap",
+        skill5: "jquery",
         text:
           "This trivia game uses the API OpenWeatherMap to access real-time temperatures from around the world.",
         Weblink: "https://mattkrebs1974.github.io/WeatherTrivia/",
@@ -93,11 +93,11 @@ class App extends Component {
         nameofID: "rock",
         frontImage: "../images/RockPaperScissorsImage.png",
         title2: "Rock Paper Scissors",
-        skill: "react",
-        skill2: "",
-        skill3: "",
-        skill4: "",
-        skill5: "",
+        skill: "css",
+        skill2: "html",
+        skill3: "javascript",
+        skill4: "bootstrap",
+        skill5: "jquery",
         text:
           "This 'backend' game uses the FireBase Database to allow for play from two different browsers.",
         Weblink: "https://mattkrebs1974.github.io/Rock-Paper-Scissors/",
@@ -109,11 +109,11 @@ class App extends Component {
         nameofID: "Diamond",
         frontImage: "../images/DiamondCollector.png",
         title2: "Diamond Collection",
-        skill: "react",
-        skill2: "",
-        skill3: "",
-        skill4: "",
-        skill5: "",
+        skill: "html",
+        skill2: "javascript",
+        skill3: "css",
+        skill4: "bootstrap",
+        skill5: "jquery",
         text:
           "This game challenges players to collect diamonds of a given value to reach a given sum. ",
         Weblink: "https://mattkrebs1974.github.io/diamondcollector/",
@@ -125,11 +125,11 @@ class App extends Component {
         nameofID: "restaurant",
         frontImage: "../images/Restaurant.png",
         title2: "Restaurant Website",
-        skill: "react",
-        skill2: "",
-        skill3: "",
-        skill4: "",
-        skill5: "",
+        skill: "html",
+        skill2: "javascript",
+        skill3: "css",
+        skill4: "jquery",
+        skill5: "bootstrap",
         text:
           "This is a Restaurant website containing many bootstrap features.",
         Weblink: "https://mattkrebs1974.github.io/Project-1/",
@@ -441,10 +441,16 @@ class App extends Component {
     this.setState({ todos: [...this.state.todos, neww] });
   };
   showRelated = (id) => {
+    this.setState({Items:[...this.state.Items]});
     this.setState({
       Items: [
         ...this.state.Items.filter(
-          (data) => data.skill === id || data.skill2 === id
+          (data) =>
+            data.skill === id ||
+            data.skill2 === id ||
+            data.skill3 === id ||
+            data.skill4 === id ||
+            data.skill5 === id
         ),
       ],
     });

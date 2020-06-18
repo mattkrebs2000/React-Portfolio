@@ -23,11 +23,14 @@ e.target.style.overflow = "hidden";
           offset={-70}
           duration={1000}
         >
-          <figure id={this.props.id} className="tint">
+          <figure
+            id={this.props.id}
+            className={this.props.highlight ? "red tint" : " tint"}
+          >
             <img
               className="photos"
               onMouseOver={changeBackground}
-              onClick={this.props.showRelated.bind(this,nameofid)}
+              onClick={this.props.showRelated.bind(this, nameofid)}
               data-toggle="tooltip"
               data-html="true"
               title={this.props.title}

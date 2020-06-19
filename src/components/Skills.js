@@ -25,7 +25,7 @@ e.target.style.overflow = "hidden";
         >
           <figure
             id={this.props.id}
-            className={this.props.highlight ? "red tint" : " tint"}
+            className={this.props.highlight ? "red tint" : "tint"}
           >
             <img
               className="photos"

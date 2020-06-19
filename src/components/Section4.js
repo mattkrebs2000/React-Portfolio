@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Particles from "react-particles-js";
 
 export default class Section4 extends Component {
   render() {
@@ -88,6 +89,98 @@ export default class Section4 extends Component {
             </section>
           </div>
         </section>
+        <footer
+          className="footer"
+          style={{ backgroundColor: "black", color: "white", height: "100%" }}
+        >
+          <Particles
+            params={{
+              particles: {
+                number: {
+                  value: 50,
+                  density: {
+                    enable: true,
+                    value_area: 700,
+                  },
+                },
+                opacity: {
+                  value: 1,
+                  random: true,
+                },
+                color: {
+                  value: "#a81d38",
+                  opacity: 1,
+                },
+                shape: {
+                  type: "circle",
+                  opacity: 1,
+                  stroke: {
+                    width: 1,
+                    color: "#a81d38",
+                    opacity: 1,
+                  },
+                  polygon: {
+                    nb_sides: 5,
+                  },
+                  image: {
+                    src: "",
+                    width: 100,
+                    height: 100,
+                  },
+                },
+
+                size: {
+                  value: 10,
+                  random: true,
+                },
+                line_linked: {
+                  enable: true,
+                  distance: 250,
+                  color: "#FFF",
+                  opacity: 1,
+                  width: 1,
+                },
+                move: {
+                  enable: true,
+                  speed: 2,
+
+                  random: true,
+                  straight: true,
+                  out_mode: "out",
+                  bounce: false,
+                  attract: {
+                    enable: true,
+                    rotateX: 600,
+                    rotateY: 1200,
+                  },
+                },
+              },
+
+              interactivity: {
+                events: {
+                  onhover: {
+                    enable: true,
+                    mode: "grab",
+                  },
+                  onclick: {
+                    enable: true,
+                    mode: "push",
+                  },
+                },
+              },
+            }}
+            style={{
+              width: "100%",
+              color: "red",
+            }}
+          />
+
+          <div className="container">
+            <div className="row img-responsive">
+              <div className="col-6"></div>
+            </div>
+          </div>
+        </footer>
       </div>
     );
   }

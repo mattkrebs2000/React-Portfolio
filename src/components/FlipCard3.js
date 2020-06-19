@@ -20,7 +20,7 @@ class FlipCard3 extends Component {
                 <p style={{ fontSize: "20px" }}>{this.props.title}</p>
                 <p style={backStyle}>{this.props.text}</p>
                 <p style={{ color: "white !important" }}>
-                  <a href={this.props.weblink}>Website</a>
+                  <a href={this.props.weblink}>Website </a>
 
                   <a
                     className="btn btn-lg btn-social-icon btn-github btn-dark"

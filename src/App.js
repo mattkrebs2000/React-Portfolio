@@ -16,7 +16,7 @@ class App extends Component {
     AboutMeData: [
       {
         key: uuid(),
-        frontImage: "../images/UPenn.png",
+        frontImage: "../images/UPENNBOOTCAMP.png",
         title2: "UPENN Coding Boot Camp",
         text: [
           "It was here where became a Full Stack Web Developer. To see some of the skills I learned and developed ",
@@ -28,10 +28,19 @@ class App extends Component {
             offset={-70}
             duration={1000}
           >
-            Click Here.
+            click here.
           </Link>,
           " To see some of what I created ",
-          <a href="#section3">click here.</a>,
+          <Link
+            className="links"
+            to="section3"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={1000}
+          >
+            click here.
+          </Link>,
         ],
       },
       {
@@ -47,17 +56,24 @@ class App extends Component {
         title2: "Personal Project",
         text: [
           "I called on Combinatorics to create a Numbers Based Sports Matching game. Any pair of two cards in a deck shares exactly 1 number (out of the 6 displayed). The numbers on the cards are the uniform numbers of famous athletes. The objective of the game was to be the first to say the name represented by the 'matched' number.",
-          <a href="https://www.google.com">here</a>,
-          "The numbers on the cards are the uniform numbers of famous athletes. The objective of the game was to be the first to say the name represented by the 'matched' number.",
+
+          <p>
+            <a
+              href="https://twitter.com/DingsdaGames"
+              className="btn btn-social-icon btn-twitter btn-lg"
+            >
+              <i className="fa fa-twitter" />
+            </a>
+          </p>,
         ],
       },
       {
         key: uuid(),
         frontImage: "../images/Geogebra.png",
         title2: "Ever Programming",
-        text:
-          "In the interest of creating dynamic educational experiences for my students, I learned to program using the Geogebra Application. I then went on to share what I had learned with my fellow math teachers. <a href='https://pbl-pd.com/'> This</a> is the PD platform that I used. <a href='https://youtu.be/GqMj9hDOuM8' target='_blank'> This </a> is a sample video demonstrating some of the programming involved as you learn how to use the application.",
-      },
+        text:[
+          "In the interest of creating dynamic educational experiences for my students, I learned to program using the Geogebra Application. I then went on to share what I had learned with my fellow math teachers.", <a href='https://pbl-pd.com/'> This </a>, "is the PD platform that I used.", <a href='https://youtu.be/GqMj9hDOuM8' target='_blank'>  This </a>, "is a sample video demonstrating some of the programming involved as you learn how to use the application."
+         ] },
     ],
     Items: [
       {
@@ -65,7 +81,7 @@ class App extends Component {
         nameofID: "teamguessing",
         frontImage: "../images/TeamGuessing.png",
         title2: "Team Guessing Game",
-        skill: ["html", "react"],
+        skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "If you like the NFL and Wheel of Fortune this might be the game for you.",
         Weblink: "https://mattkrebs1974.github.io/Word-Guess-Game/",
@@ -78,7 +94,7 @@ class App extends Component {
         nameofID: "weather",
         frontImage: "../images/TriviaChallenge.png",
         title2: "Weather Trivia Challenge",
-        skill: ["html", "react"],
+        skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "This trivia game uses the API OpenWeatherMap to access real-time temperatures from around the world.",
         Weblink: "https://mattkrebs1974.github.io/WeatherTrivia/",
@@ -91,7 +107,7 @@ class App extends Component {
         nameofID: "rock",
         frontImage: "../images/RockPaperScissorsImage.png",
         title2: "Rock Paper Scissors",
-        skill: ["html", "react"],
+        skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "This 'backend' game uses the FireBase Database to allow for play from two different browsers.",
         Weblink: "https://mattkrebs1974.github.io/Rock-Paper-Scissors/",
@@ -104,7 +120,7 @@ class App extends Component {
         nameofID: "Diamond",
         frontImage: "../images/DiamondCollector.png",
         title2: "Diamond Collection",
-        skill: ["html", "react"],
+        skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "This game challenges players to collect diamonds of a given value to reach a given sum. ",
         Weblink: "https://mattkrebs1974.github.io/diamondcollector/",
@@ -117,7 +133,7 @@ class App extends Component {
         nameofID: "restaurant",
         frontImage: "../images/Restaurant.png",
         title2: "Restaurant Website",
-        skill: ["html", "react"],
+        skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "This is a Restaurant website containing many bootstrap features.",
         Weblink: "https://mattkrebs1974.github.io/Project-1/",
@@ -130,7 +146,7 @@ class App extends Component {
         nameofID: "gif",
         frontImage: "../images/Gifs.png",
         title2: "Gifs for Everyone!",
-        skill: ["html", "react"],
+        skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "This website relies on GiphyAPI call to bring about any kind of Gif you want.",
         Weblink: "https://mattkrebs1974.github.io/Gifs-with-GiphyAPI/",
@@ -143,7 +159,7 @@ class App extends Component {
         nameofID: "liri",
         frontImage: "../images/LiriNode.png",
         title2: "Liri App!",
-        skill: ["html", "react"],
+        skill: ["javascript", "node", "showall"],
         text:
           "LIRI is a 'Language Interpretation and Recognition Interface' and command line node app that takes in parameters and gives you back data.",
         Weblink: "https://youtu.be/UJJ3NZjYYas",
@@ -156,7 +172,7 @@ class App extends Component {
         nameofID: "store",
         frontImage: "../images/store.png",
         title2: "Online Store",
-        skill: ["html", "react"],
+        skill: ["javascript", "node", "mysql", "showall"],
         text:
           "This is an Online Store Front made with Node.JS & MYSQL. The user can identify as a Customer or as a Manager.",
         Weblink: "https://youtu.be/2OJAoMUCwxE",
@@ -169,7 +185,17 @@ class App extends Component {
         nameofID: "BrainGauge",
         frontImage: "../images/BrainGauge.png",
         title2: "Brain Gauge",
-        skill: ["html", "react"],
+        skill: [
+          "html",
+          "javascript",
+          "bootstrap",
+          "css",
+          "mongodb",
+          "express",
+          "node",
+          "react",
+          "showall",
+        ],
         text:
           "This React App measures your mental responsiveness and tells you when you are at your best.",
         Weblink: "https://braingaugefinalproject.herokuapp.com/",
@@ -182,7 +208,7 @@ class App extends Component {
         nameofID: "Friend",
         frontImage: "../images/friendfinder.png",
         title2: "80's Friend Finder!",
-        skill: ["html", "react"],
+        skill: ["node", "javascript", "express", "showall"],
         text:
           "This Node Express.js App interacts with a self-contained API to determine which person in the JSON file would be your best Match.",
         Weblink: "https://friendfinderapp2020.herokuapp.com/",
@@ -195,7 +221,7 @@ class App extends Component {
         nameofID: "burger",
         frontImage: "../images/burger.png",
         title2: "Eat The Burger!",
-        skill: ["html", "react"],
+        skill: ["mysql", "javascript", "node", "express", "showall"],
         text:
           "This is a burger 'logger' which relies on the use of MySQL, Node, Express, Handlebars and a homemade ORM (yum!)",
         Weblink: "https://burger-app-2020.herokuapp.com/",
@@ -208,7 +234,7 @@ class App extends Component {
         nameofID: "mongoscraper",
         frontImage: "../images/MongoScraper.png",
         title2: "Mongo Scraper",
-        skill: ["html", "react"],
+        skill: ["mongodb", "javascript", "html", "showall", "node"],
         text:
           "This app uses Cheerio and Axios to scrape Super Bowl odds and stores the info in MongoDB. ",
         Weblink: "https://oddsscraper.herokuapp.com/",
@@ -221,7 +247,15 @@ class App extends Component {
         nameofID: "lll",
         frontImage: "../images/LLL.png",
         title2: "Little League Logger",
-        skill: ["html", "react"],
+        skill: [
+          "html",
+          "javascript",
+          "express",
+          "mysql",
+          "css",
+          "mysql",
+          "node",
+        ],
         text:
           "An app that provides real-time documentation of “in game” team progress and allows for secure interaction by coaches and parents.",
         Weblink: "https://little-league-logger.herokuapp.com/",
@@ -234,7 +268,7 @@ class App extends Component {
         nameofID: "WordPress",
         frontImage: "../images/pdsite.png",
         title2: "WordPress PD Site",
-        skill: ["html", "react"],
+        skill: ["wordpress", "showall"],
         text: "This is the WordPress site which I manage.",
         Weblink: "https://pbl-pd.com/",
         Gitlink: "",
@@ -246,7 +280,7 @@ class App extends Component {
         nameofID: "ClickyGame",
         frontImage: "../images/clickygame.png",
         title2: "React Clicky Game",
-        skill: "react",
+        skill: ["react", "javascript", "node"],
         text:
           "This is a React App which challenges users to not click on a famous person twice.",
         Weblink: "https://agile-shelf-37421.herokuapp.com/",
@@ -259,7 +293,7 @@ class App extends Component {
         nameofID: "teamtravel",
         frontImage: "../images/TravelWithTheTeam.png",
         title2: "Travel With The Team",
-        skill: ["html", "react"],
+        skill: ["html", "javascript", "css", "jquery", "showall"],
         text:
           "This website relies on 5 different API calls to allow you to Travel with your Team.",
         Weblink: "https://mattkrebs1974.github.io/Project-1/",
@@ -434,10 +468,7 @@ class App extends Component {
     } else {
       this.setState({
         FilteredItems: [
-          ...this.state.Items.filter(
-            (data) =>
-              data.skill.includes(id)
-          ),
+          ...this.state.Items.filter((data) => data.skill.includes(id)),
         ],
       });
     }

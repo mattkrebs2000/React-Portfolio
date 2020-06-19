@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 import Navbar from "./components/NavBar.js";
 import Section1 from "./components/Section1.js";
 import SectionHolder from "./components/SectionHolder.js";
 import { v4 as uuid } from "uuid";
 import { Link } from "react-scroll";
-
-
 
 class App extends Component {
   state = {
@@ -71,9 +69,17 @@ class App extends Component {
         key: uuid(),
         frontImage: "../images/Geogebra.png",
         title2: "Ever Programming",
-        text:[
-          "In the interest of creating dynamic educational experiences for my students, I learned to program using the Geogebra Application. I then went on to share what I had learned with my fellow math teachers.", <a href='https://pbl-pd.com/'> This </a>, "is the PD platform that I used.", <a href='https://youtu.be/GqMj9hDOuM8' target='_blank'>  This </a>, "is a sample video demonstrating some of the programming involved as you learn how to use the application."
-         ] },
+        text: [
+          "In the interest of creating dynamic educational experiences for my students, I learned to program using the Geogebra Application. I then went on to share what I had learned with my fellow math teachers.",
+          <a href="https://pbl-pd.com/"> This </a>,
+          "is the PD platform that I used.",
+          <a href="https://youtu.be/GqMj9hDOuM8" target="_blank">
+            {" "}
+            This{" "}
+          </a>,
+          "is a sample video demonstrating some of the programming involved as you learn how to use the application.",
+        ],
+      },
     ],
     Items: [
       {
@@ -84,8 +90,8 @@ class App extends Component {
         skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "If you like the NFL and Wheel of Fortune this might be the game for you.",
-        Weblink: "https://mattkrebs1974.github.io/Word-Guess-Game/",
-        Gitlink: "https://github.com/mattkrebs1974/Word-Guess-Game",
+        Weblink: "https://mattkrebs2000.github.io/Word-Guess-Game/",
+        Gitlink: "https://github.com/mattkrebs2000/Word-Guess-Game",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -97,8 +103,8 @@ class App extends Component {
         skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "This trivia game uses the API OpenWeatherMap to access real-time temperatures from around the world.",
-        Weblink: "https://mattkrebs1974.github.io/WeatherTrivia/",
-        Gitlink: "https://github.com/mattkrebs1974/WeatherTrivia",
+        Weblink: "https://mattkrebs2000.github.io/WeatherTrivia/",
+        Gitlink: "https://github.com/mattkrebs2000/WeatherTrivia",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -110,8 +116,8 @@ class App extends Component {
         skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "This 'backend' game uses the FireBase Database to allow for play from two different browsers.",
-        Weblink: "https://mattkrebs1974.github.io/Rock-Paper-Scissors/",
-        Gitlink: "https://github.com/mattkrebs1974/Rock-Paper-Scissors",
+        Weblink: "https://mattkrebs2000.github.io/Rock-Paper-Scissors/",
+        Gitlink: "https://github.com/mattkrebs2000/Rock-Paper-Scissors",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -123,8 +129,8 @@ class App extends Component {
         skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "This game challenges players to collect diamonds of a given value to reach a given sum. ",
-        Weblink: "https://mattkrebs1974.github.io/diamondcollector/",
-        Gitlink: "https://github.com/mattkrebs1974/diamondcollector",
+        Weblink: "https://mattkrebs2000.github.io/diamondcollector/",
+        Gitlink: "https://github.com/mattkrebs2000/diamondcollector",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -136,8 +142,8 @@ class App extends Component {
         skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "This is a Restaurant website containing many bootstrap features.",
-        Weblink: "https://mattkrebs1974.github.io/Project-1/",
-        Gitlink: "https://github.com/mattkrebs1974/Project-1",
+        Weblink: "https://mattkrebs2000.github.io/Restaurant-Website/",
+        Gitlink: "https://github.com/mattkrebs2000/Restaurant-Website",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -149,8 +155,8 @@ class App extends Component {
         skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "This website relies on GiphyAPI call to bring about any kind of Gif you want.",
-        Weblink: "https://mattkrebs1974.github.io/Gifs-with-GiphyAPI/",
-        Gitlink: "https://github.com/mattkrebs1974/Gifs-with-GiphyAPI",
+        Weblink: "https://mattkrebs2000.github.io/Gifs-with-GiphyAPI/",
+        Gitlink: "https://github.com/mattkrebs2000/Gifs-with-GiphyAPI",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -163,7 +169,7 @@ class App extends Component {
         text:
           "LIRI is a 'Language Interpretation and Recognition Interface' and command line node app that takes in parameters and gives you back data.",
         Weblink: "https://youtu.be/UJJ3NZjYYas",
-        Gitlink: "https://github.com/mattkrebs1974/LiriBot",
+        Gitlink: "https://github.com/mattkrebs2000/LiriBot",
         Youtube: "https://youtu.be/UJJ3NZjYYas",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -176,7 +182,7 @@ class App extends Component {
         text:
           "This is an Online Store Front made with Node.JS & MYSQL. The user can identify as a Customer or as a Manager.",
         Weblink: "https://youtu.be/2OJAoMUCwxE",
-        Gitlink: "https://github.com/mattkrebs1974/OnlineStore",
+        Gitlink: "https://github.com/mattkrebs2000/OnlineStore",
         Youtube: "https://youtu.be/2OJAoMUCwxE",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -199,7 +205,7 @@ class App extends Component {
         text:
           "This React App measures your mental responsiveness and tells you when you are at your best.",
         Weblink: "https://braingaugefinalproject.herokuapp.com/",
-        Gitlink: "https://github.com/mattkrebs1974/BrainGauge",
+        Gitlink: "https://github.com/mattkrebs2000/BrainGauge",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -212,7 +218,7 @@ class App extends Component {
         text:
           "This Node Express.js App interacts with a self-contained API to determine which person in the JSON file would be your best Match.",
         Weblink: "https://friendfinderapp2020.herokuapp.com/",
-        Gitlink: "https://github.com/mattkrebs1974/FriendFinder",
+        Gitlink: "https://github.com/mattkrebs2000/FriendFinder",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -225,7 +231,7 @@ class App extends Component {
         text:
           "This is a burger 'logger' which relies on the use of MySQL, Node, Express, Handlebars and a homemade ORM (yum!)",
         Weblink: "https://burger-app-2020.herokuapp.com/",
-        Gitlink: "https://github.com/mattkrebs1974/burger",
+        Gitlink: "https://github.com/mattkrebs2000/burger",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -238,7 +244,7 @@ class App extends Component {
         text:
           "This app uses Cheerio and Axios to scrape Super Bowl odds and stores the info in MongoDB. ",
         Weblink: "https://oddsscraper.herokuapp.com/",
-        Gitlink: "https://github.com/mattkrebs1974/mongoscraper",
+        Gitlink: "https://github.com/mattkrebs2000/mongoscraper",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -259,7 +265,7 @@ class App extends Component {
         text:
           "An app that provides real-time documentation of “in game” team progress and allows for secure interaction by coaches and parents.",
         Weblink: "https://little-league-logger.herokuapp.com/",
-        Gitlink: "https://github.com/mattkrebs1974/Project-Two",
+        Gitlink: "https://github.com/mattkrebs2000/Project-Two",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -284,7 +290,7 @@ class App extends Component {
         text:
           "This is a React App which challenges users to not click on a famous person twice.",
         Weblink: "https://agile-shelf-37421.herokuapp.com/",
-        Gitlink: "https://github.com/mattkrebs1974/ClickyGame",
+        Gitlink: "https://github.com/mattkrebs2000/ClickyGame",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
@@ -296,8 +302,8 @@ class App extends Component {
         skill: ["html", "javascript", "css", "jquery", "showall"],
         text:
           "This website relies on 5 different API calls to allow you to Travel with your Team.",
-        Weblink: "https://mattkrebs1974.github.io/Project-1/",
-        Gitlink: "https://github.com/mattkrebs1974/Project-1",
+        Weblink: "https://mattkrebs2000.github.io/Project-1/",
+        Gitlink: "https://github.com/mattkrebs2000/Project-1",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },

@@ -70,7 +70,7 @@ export default class Section4 extends Component {
                 </a>
                 <a
                   className="btn btn-lg btn-social-icon btn-github btn-outline-dark"
-                  href="https://github.com/mattkrebs1974?tab=repositories"
+                  href="https://github.com/mattkrebs2000?tab=repositories"
                 >
                   <i className="fa fa-github fa-2x" />
                 </a>

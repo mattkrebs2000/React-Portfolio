@@ -407,24 +407,6 @@ class App extends Component {
         highlight: false,
       },
     ],
-
-    todos: [
-      {
-        id: uuid(),
-        title: "take out the trash",
-        completed: true,
-      },
-      {
-        id: uuid(),
-        title: "Walk the dog",
-        completed: false,
-      },
-      {
-        id: uuid(),
-        title: "Eat Food",
-        completed: false,
-      },
-    ],
   };
 
   componentDidMount = () => {
@@ -449,21 +431,6 @@ class App extends Component {
     );
   };
 
-  clickDelete = (id) => {
-    this.setState({
-      todos: [...this.state.todos.filter((data) => data.id !== id)],
-    });
-  };
-
-  ADDthisTodo = (title) => {
-    const neww = {
-      id: uuid(),
-      title,
-      completed: false,
-    };
-
-    this.setState({ todos: [...this.state.todos, neww] });
-  };
   showRelated = (id) => {
     this.highlightSkill(id);
 

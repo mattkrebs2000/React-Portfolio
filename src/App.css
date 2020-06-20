@@ -534,6 +534,7 @@ nav{
 
 .tint:hover:before {
   background: none;
+  opacity: 95% !important;
 }
 
 
@@ -544,6 +545,7 @@ width:90%;
  overflow: hidden; 
 transform: scale(2);
   transition: all .4s linear;
+ 
 
 }
 

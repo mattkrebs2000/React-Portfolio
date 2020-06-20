@@ -25,25 +25,23 @@ e.target.style.overflow = "hidden";
         >
           <figure
             id={this.props.id}
-            className={this.props.highlight ? "red" : ""}
+            className={this.props.highlight ? "red tint" : "tint"}
           >
-            <div className = "tint">
-              <img
-                className="photos"
-                onMouseOver={changeBackground}
-                onClick={this.props.showRelated.bind(this, nameofid)}
-                data-toggle="tooltip"
-                data-html="true"
-                title={this.props.title}
-                src={this.props.image}
-                alt={this.props.alt}
-                style={{
-                  width: "inherit",
-                  height: "inherit",
-                  overflow: "hidden",
-                }}
-              />
-            </div>
+            <img
+              className="photos"
+              onMouseOver={changeBackground}
+              onClick={this.props.showRelated.bind(this, nameofid)}
+              data-toggle="tooltip"
+              data-html="true"
+              title={this.props.title}
+              src={this.props.image}
+              alt={this.props.alt}
+              style={{
+                width: "inherit",
+                height: "inherit",
+                overflow: "hidden",
+              }}
+            />
           </figure>
         </Link>
       </div>

@@ -14,7 +14,8 @@ class App extends Component {
     AboutMeData: [
       {
         key: uuid(),
-        frontImage: "../images/UPENNBOOTCAMP.png",
+        frontImage:
+          "../../public/images/bootstrap.png",
         title2: "UPENN Coding Boot Camp",
         text: [
           "It was here where became a Full Stack Web Developer. To see some of the skills I learned and developed ",

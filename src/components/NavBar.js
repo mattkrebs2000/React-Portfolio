@@ -26,7 +26,7 @@ export default class NavBar extends Component {
                     offset={-70}
                     duration={1000}
                   >
-                    Home
+                    Homey
                   </Link>
                 </li>
                 <li className="nav-item">

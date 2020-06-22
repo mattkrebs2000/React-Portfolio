@@ -224,19 +224,6 @@ class App extends Component {
       },
       {
         id: uuid(),
-        nameofID: "burger",
-        frontImage: "../images/burger.png",
-        title2: "Eat The Burger!",
-        skill: ["mysql", "javascript", "node", "express", "showall"],
-        text:
-          "This is a burger 'logger' which relies on the use of MySQL, Node, Express, Handlebars and a homemade ORM (yum!)",
-        Weblink: "https://burger-app-2020.herokuapp.com/",
-        Gitlink: "https://github.com/mattkrebs2000/burger",
-        Youtube: "",
-        HideShow: "col-md-6 col-xl-3 show",
-      },
-      {
-        id: uuid(),
         nameofID: "mongoscraper",
         frontImage: "../images/MongoScraper.png",
         title2: "Mongo Scraper",

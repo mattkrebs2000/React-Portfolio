@@ -230,7 +230,7 @@ class App extends Component {
         skill: ["mongodb", "javascript", "node", "express", "showall", "react"],
         text:
           "This is a 'computer-based' burger 'logger' which relies on the use of MongoDB, Node, Express, and React.",
-        Weblink: "burger-for-your-computer.herokuapp.com",
+        Weblink: "http://burger-for-your-computer.herokuapp.com",
         Gitlink: "https://github.com/mattkrebs2000/reactburger",
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",

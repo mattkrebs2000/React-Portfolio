@@ -274,7 +274,7 @@ class App extends Component {
         nameofID: "WordPress",
         frontImage: "../images/pdsite.png",
         title2: "WordPress PD Site",
-        skill: ["wordpress", "showall"],
+        skill: ["wordpress", "showall", "php"],
         text: "This is the WordPress site which I manage.",
         Weblink: "https://pbl-pd.com/",
         Gitlink: "",
@@ -396,6 +396,14 @@ class App extends Component {
         title: "WordPress",
         Image: "../images/wordpress.png",
         alt: "Wordpress",
+        highlight: false,
+      },
+      {
+        id: uuid(),
+        nameofid: "php",
+        title: "php",
+        Image: "../images/php.png",
+        alt: "php",
         highlight: false,
       },
       {

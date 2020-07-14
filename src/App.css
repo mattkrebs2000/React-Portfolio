@@ -648,7 +648,7 @@ border: 4px solid red;
 
 
 .flip-card {
-  animation: EAT 3s;
+  animation: EAT 2s;
 }
 @keyframes EAT {
   from { opacity: -100%}

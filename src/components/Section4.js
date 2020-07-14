@@ -2,6 +2,37 @@ import React, { Component } from "react";
 import Particles from "react-particles-js";
 
 export default class Section4 extends Component {
+  state = {
+    what: 2,
+    winScroll: 0,
+    lower:false,
+    speed:0,
+    zero:0,
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.TrueFalse);
+  }
+
+  TrueFalse = () => {
+    const winScroll = document.documentElement.scrollTop; 
+     
+    this.setState({ winScroll: winScroll });
+    if (document.documentElement.scrollHeight-1000 > this.state.winScroll) {
+      this.setState({lower:false})
+      this.setState({speed:0})
+      this.setState({zero:0})
+       console.log("I am happy", this.state.lower);
+    } else {
+        this.setState({ lower: true });
+         this.setState({ speed: 2 });
+          this.setState({ zero: 1 });
+         console.log("I am sad", this.state.lower);
+    }
+   
+  };
+   
+
   render() {
     return (
       <div>
@@ -89,9 +120,14 @@ export default class Section4 extends Component {
             </section>
           </div>
         </section>
+
         <footer
           className="footer"
-          style={{ backgroundColor: "black", color: "white", height: "100%" }}
+          style={{
+            backgroundColor: "black",
+            color: "white",
+            height: "100%",
+          }}
         >
           <Particles
             params={{
@@ -99,25 +135,25 @@ export default class Section4 extends Component {
                 number: {
                   value: 50,
                   density: {
-                    enable: true,
+                    enable: this.state.lower,
                     value_area: 700,
                   },
                 },
                 opacity: {
-                  value: 1,
-                  random: true,
+                  value: this.state.zero,
+                  random: this.state.lower,
                 },
                 color: {
                   value: "#a81d38",
-                  opacity: 1,
+                  opacity: this.state.zero,
                 },
                 shape: {
                   type: "circle",
-                  opacity: 1,
+                  opacity: this.state.zero,
                   stroke: {
-                    width: 1,
+                    width: this.state.zero,
                     color: "#a81d38",
-                    opacity: 1,
+                    opacity: this.state.zero,
                   },
                   polygon: {
                     nb_sides: 5,
@@ -131,25 +167,25 @@ export default class Section4 extends Component {
 
                 size: {
                   value: 10,
-                  random: true,
+                  random: this.state.lower,
                 },
                 line_linked: {
-                  enable: true,
+                  enable: this.state.lower,
                   distance: 250,
                   color: "#FFF",
-                  opacity: 1,
-                  width: 1,
+                  opacity: this.state.zero,
+                  width: this.state.zero,
                 },
                 move: {
-                  enable: true,
-                  speed: 2,
+                  enable: this.state.lower,
+                  speed: this.state.speed,
 
-                  random: true,
-                  straight: true,
+                  random: this.state.lower,
+                  straight: this.state.lower,
                   out_mode: "out",
                   bounce: false,
                   attract: {
-                    enable: true,
+                    enable: this.state.lower,
                     rotateX: 600,
                     rotateY: 1200,
                   },
@@ -159,11 +195,11 @@ export default class Section4 extends Component {
               interactivity: {
                 events: {
                   onhover: {
-                    enable: true,
+                    enable: this.state.lower,
                     mode: "grab",
                   },
                   onclick: {
-                    enable: true,
+                    enable: this.state.lower,
                     mode: "push",
                   },
                 },
@@ -174,7 +210,6 @@ export default class Section4 extends Component {
               color: "red",
             }}
           />
-
           <div className="container">
             <div className="row img-responsive">
               <div className="col-6"></div>

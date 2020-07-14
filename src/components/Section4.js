@@ -8,6 +8,7 @@ export default class Section4 extends Component {
     lower:false,
     speed:0,
     zero:0,
+    
   };
 
   componentDidMount() {
@@ -16,20 +17,21 @@ export default class Section4 extends Component {
 
   TrueFalse = () => {
     const winScroll = document.documentElement.scrollTop; 
+    
      
     this.setState({ winScroll: winScroll });
-    if (document.documentElement.scrollHeight-1000 > this.state.winScroll) {
+    if (document.documentElement.scrollHeight-(167+window.innerWidth) > this.state.winScroll) {
       this.setState({lower:false})
       this.setState({speed:0})
       this.setState({zero:0})
-       console.log("I am happy", this.state.lower);
+       console.log("I am happy", this.state.lower)
+       console.log("width", window.innerWidth)
     } else {
         this.setState({ lower: true });
          this.setState({ speed: 2 });
           this.setState({ zero: 1 });
          console.log("I am sad", this.state.lower);
     }
-   
   };
    
 

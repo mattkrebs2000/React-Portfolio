@@ -261,6 +261,7 @@ class App extends Component {
           "css",
           "mysql",
           "node",
+          "photoshop",
         ],
         text:
           "An app that provides real-time documentation of “in game” team progress and allows for secure interaction by coaches and parents.",

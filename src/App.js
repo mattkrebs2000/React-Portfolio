@@ -168,7 +168,7 @@ class App extends Component {
         skill: ["javascript", "node", "showall"],
         text:
           "LIRI is a 'Language Interpretation and Recognition Interface' and command line node app that takes in parameters and gives you back data.",
-        Weblink: "https://youtu.be/UJJ3NZjYYas",
+        Weblink: "",
         Gitlink: "https://github.com/mattkrebs2000/LiriBot",
         Youtube: "https://youtu.be/UJJ3NZjYYas",
         HideShow: "col-md-6 col-xl-3 show",
@@ -181,7 +181,7 @@ class App extends Component {
         skill: ["javascript", "node", "mysql", "showall"],
         text:
           "This is an Online Store Front made with Node.JS & MYSQL. The user can identify as a Customer or as a Manager.",
-        Weblink: "https://youtu.be/2OJAoMUCwxE",
+        Weblink: "",
         Gitlink: "https://github.com/mattkrebs2000/OnlineStore",
         Youtube: "https://youtu.be/2OJAoMUCwxE",
         HideShow: "col-md-6 col-xl-3 show",
@@ -307,6 +307,19 @@ class App extends Component {
         Youtube: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
+      {
+        id: uuid(),
+        nameofID: "videoediting",
+        frontImage: "../images/PromoVideo.png",
+        title2: "Promotional Video",
+        skill: ["videoediting", "photoshop","showall"],
+        text:
+          "This is a Promotional Video I made. The tools I used to make it: Premiere Pro, Camtasia & ScreenFlow. The cover image was made with Photoshop.",
+        Weblink: "",
+        Gitlink: "",
+        Youtube: "https://youtu.be/GfiKE1Dxj0A",
+        HideShow: "col-md-6 col-xl-3 show",
+      },
     ],
 
     skills: [
@@ -404,6 +417,22 @@ class App extends Component {
         title: "php",
         Image: "../images/php.png",
         alt: "php",
+        highlight: false,
+      },
+      {
+        id: uuid(),
+        nameofid: "videoediting",
+        title: "Video Editing",
+        Image: "../images/VideoEditing.png",
+        alt: "videoediting",
+        highlight: false,
+      },
+      {
+        id: uuid(),
+        nameofid: "photoshop",
+        title: "Adobe PhotoShop",
+        Image: "../images/photoshop.png",
+        alt: "Adobe PhotoShop",
         highlight: false,
       },
       {

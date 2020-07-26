@@ -322,7 +322,7 @@ class App extends Component {
         title2: "Promotional Video",
         skill: ["videoediting", "photoshop", "showall"],
         text:
-          "This is a Promotional Video I made. The tools I used to make it: Premiere Pro, Camtasia & ScreenFlow. The cover image was made with Photoshop.",
+          "This is a Promotional Video I made. The tools I used to make it: Premiere Pro, Camtasia & ScreenFlow.",
         Weblink: "",
         Gitlink: "",
         Youtube: "https://youtu.be/GfiKE1Dxj0A",
@@ -461,6 +461,10 @@ class App extends Component {
   };
 
   highlightSkill = (id) => {
+    if (id=="photoshop"){
+alert("The front covers you are about to see in the 'Portfolio' section were made with Adobe Photoshop.")
+    } else {}
+
     this.setState(
       {
         skills: this.state.skills.map((data) => {

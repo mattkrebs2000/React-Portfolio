@@ -178,7 +178,7 @@ class App extends Component {
         nameofID: "store",
         frontImage: "../images/store.png",
         title2: "Online Store",
-        skill: ["javascript", "node", "mysql", "showall"],
+        skill: ["javascript", "node", "mysql", "showall", "photoshop"],
         text:
           "This is an Online Store Front made with Node.JS & MYSQL. The user can identify as a Customer or as a Manager.",
         Weblink: "",

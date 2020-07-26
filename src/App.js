@@ -240,7 +240,14 @@ class App extends Component {
         nameofID: "mongoscraper",
         frontImage: "../images/MongoScraper.png",
         title2: "Mongo Scraper",
-        skill: ["mongodb", "javascript", "html", "showall", "node", "photoshop"],
+        skill: [
+          "mongodb",
+          "javascript",
+          "html",
+          "showall",
+          "node",
+          "photoshop",
+        ],
         text:
           "This app uses Cheerio and Axios to scrape Super Bowl odds and stores the info in MongoDB. ",
         Weblink: "https://oddsscraper.herokuapp.com/",
@@ -313,7 +320,7 @@ class App extends Component {
         nameofID: "videoediting",
         frontImage: "../images/PromoVideo.png",
         title2: "Promotional Video",
-        skill: ["videoediting", "photoshop","showall"],
+        skill: ["videoediting", "photoshop", "showall"],
         text:
           "This is a Promotional Video I made. The tools I used to make it: Premiere Pro, Camtasia & ScreenFlow. The cover image was made with Photoshop.",
         Weblink: "",
@@ -462,9 +469,14 @@ class App extends Component {
           } else {
             data.highlight = false;
           }
+         
           return data;
-        }),
+        }
+        
+        
+        ),
       },
+      
       console.log(this.state.skills)
     );
   };

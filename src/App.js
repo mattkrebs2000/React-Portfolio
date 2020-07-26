@@ -240,7 +240,7 @@ class App extends Component {
         nameofID: "mongoscraper",
         frontImage: "../images/MongoScraper.png",
         title2: "Mongo Scraper",
-        skill: ["mongodb", "javascript", "html", "showall", "node"],
+        skill: ["mongodb", "javascript", "html", "showall", "node", "photoshop"],
         text:
           "This app uses Cheerio and Axios to scrape Super Bowl odds and stores the info in MongoDB. ",
         Weblink: "https://oddsscraper.herokuapp.com/",

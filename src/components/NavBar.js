@@ -24,6 +24,7 @@ export default class NavBar extends Component {
                   smooth={true}
                   offset={-70}
                   duration={1000}
+                  title= "created with: Adobe After Effects"
                 >
                   <Logo />
                 </Link>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Logo from "./Logo.js";
 
 
 export default class NavBar extends Component {
@@ -14,8 +15,21 @@ export default class NavBar extends Component {
             className="navbar-dark navbar-success bg-transparent navbar-expand navigation-bar is-visible"
             data-nav-status="toggle"
           >
-            <div className="navbar-collapse collapse" id="nav3">
-              <ul className="nav navbar-nav.navbar-right ml-auto">
+            <div className="navbar-collapse collapse">
+              <div className="mr-auto">
+                <Link
+                  className=" black"
+                  to=""
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}
+                >
+                  <Logo />
+                </Link>
+              </div>
+
+              <ul className="nav navbar-nav.navbar-right ml-auto" id="nav3">
                 <li className="nav-item">
                   <Link
                     id="toplink"

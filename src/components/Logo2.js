@@ -1,10 +1,8 @@
-
 import React, { useEffect, createRef } from "react";
 import lottie from "lottie-web";
-import animation1 from "../animations/data.json";
+import animation1 from "../animations/data2.json";
 
 const Logo = () => {
-    
   let animationContainer = createRef();
 
   useEffect(() => {
@@ -14,7 +12,6 @@ const Logo = () => {
       loop: true,
       autoplay: true,
       animationData: animation1,
- 
     });
     return () => anim.destroy(); // optional clean up for unmounting
   }, []);

@@ -24,13 +24,12 @@ export default class Section4 extends Component {
       this.setState({lower:false})
       this.setState({speed:0})
       this.setState({zero:0})
-       console.log("I am happy", this.state.lower)
-       console.log("width", window.innerWidth)
+  
     } else {
         this.setState({ lower: true });
          this.setState({ speed: 2 });
           this.setState({ zero: 1 });
-         console.log("I am sad", this.state.lower);
+      
     }
   };
    

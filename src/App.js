@@ -328,6 +328,19 @@ class App extends Component {
         Youtube: "https://youtu.be/GfiKE1Dxj0A",
         HideShow: "col-md-6 col-xl-3 show",
       },
+      {
+        id: uuid(),
+        nameofID: "animation",
+        frontImage: "../images/animation.png",
+        title2: "Animation with After Effects",
+        skill: ["aftereffects", "showall"],
+        text:
+          "Press 'enter' on your keyboard and notice the animated logos in the upper left of this site- created with Adobe AfterEffects.",
+        Weblink: "",
+        Gitlink: "",
+        Youtube: "",
+        HideShow: "col-md-6 col-xl-3 show",
+      },
     ],
 
     skills: [

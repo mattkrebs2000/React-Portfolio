@@ -445,6 +445,15 @@ class App extends Component {
       },
       {
         id: uuid(),
+        nameofid: "aftereffects",
+        title: "Adobe After Effects",
+        Image: "../images/AfterEffects.png",
+        alt: "Adobe AfterEffects",
+        highlight: false,
+      },
+
+      {
+        id: uuid(),
         nameofid: "showall",
         title: "Show All",
         Image: "../images/all.png",
@@ -461,9 +470,12 @@ class App extends Component {
   };
 
   highlightSkill = (id) => {
-    if (id=="photoshop"){
-alert("The front covers you are about to see in the 'Portfolio' section were made with Adobe Photoshop.")
-    } else {}
+    if (id == "photoshop") {
+      alert(
+        "The front covers you are about to see in the 'Portfolio' section were made with Adobe Photoshop."
+      );
+    } else {
+    }
 
     this.setState(
       {
@@ -473,14 +485,11 @@ alert("The front covers you are about to see in the 'Portfolio' section were mad
           } else {
             data.highlight = false;
           }
-         
+
           return data;
-        }
-        
-        
-        ),
+        }),
       },
-      
+
       console.log(this.state.skills)
     );
   };

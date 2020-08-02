@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 
+
 class FlipCard3 extends Component {
   render() {
     return (
@@ -10,8 +11,8 @@ class FlipCard3 extends Component {
             <div className="flip-card-front">
               <img
                 className="image2"
-                src={this.props.image}
-                alt="Avatar"
+                src={this.props.image} 
+                alt="Avatar" 
                 style={{ width: "100%", height: "100%" }}
               />
             </div>

@@ -3,10 +3,11 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Logo from "./Logo.js";
 import Logo2 from "./Logo2.js";
 import Logo3 from "./Logo3.js";
+import Logo4 from "./Logo4.js";
 
 export default class NavBar extends Component {
   state = {
-    name: <Logo2 />,
+    name: <Logo3 />,
     number: 1,
   };
 
@@ -21,7 +22,7 @@ export default class NavBar extends Component {
   }
 
   addHit = function () {
-    if (this.state.number === 3) {
+    if (this.state.number === 4) {
       this.setState({ number: 1 });
       console.log(this.state.number);
     } else {
@@ -43,6 +44,10 @@ export default class NavBar extends Component {
       this.setState({ name: <Logo3 /> });
       console.log(this.state.name);
     }
+      if (this.state.number === 4) {
+        this.setState({ name: <Logo4 /> });
+        console.log(this.state.name);
+      }
   };
 
   render() {

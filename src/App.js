@@ -87,7 +87,7 @@ class App extends Component {
         nameofID: "teamguessing",
         frontImage: "../images/TeamGuessing.png",
         title2: "Team Guessing Game",
-        skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
+        skill: ["wordpress", "php", "html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "If you like the NFL and Wheel of Fortune this might be the game for you.",
         Weblink: "",

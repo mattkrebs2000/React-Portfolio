@@ -48,7 +48,7 @@ class FlipCard3 extends Component {
                 )}
                 {this.props.WordPress ? (
                   <a
-                    className="btn btn-lg btn-social-icon btn-wordpress btn-danger"
+                    className="btn btn-lg btn-social-icon btn-wordpress btn-primary"
                     href={this.props.WordPress}
                   >
                     <i className="fa fa-wordpress fa-2x"></i>

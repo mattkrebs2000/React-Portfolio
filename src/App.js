@@ -90,9 +90,11 @@ class App extends Component {
         skill: ["html", "javascript", "css", "jquery", "bootstrap", "showall"],
         text:
           "If you like the NFL and Wheel of Fortune this might be the game for you.",
-        Weblink: "https://mattkrebs2000.github.io/Word-Guess-Game/",
-        Gitlink: "https://github.com/mattkrebs2000/Word-Guess-Game",
+        Weblink: "",
+        Gitlink:
+          "https://github.com/mattkrebs2000/mywordpresstemplatewordguessgame",
         Youtube: "",
+        WordPress: "https://protected-lowlands-52812.herokuapp.com/",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -106,6 +108,7 @@ class App extends Component {
         Weblink: "https://mattkrebs2000.github.io/WeatherTrivia/",
         Gitlink: "https://github.com/mattkrebs2000/WeatherTrivia",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -119,6 +122,7 @@ class App extends Component {
         Weblink: "https://mattkrebs2000.github.io/Rock-Paper-Scissors/",
         Gitlink: "https://github.com/mattkrebs2000/Rock-Paper-Scissors",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -132,6 +136,7 @@ class App extends Component {
         Weblink: "https://mattkrebs2000.github.io/diamondcollector/",
         Gitlink: "https://github.com/mattkrebs2000/diamondcollector",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -145,6 +150,7 @@ class App extends Component {
         Weblink: "https://mattkrebs2000.github.io/Restaurant-Website/",
         Gitlink: "https://github.com/mattkrebs2000/Restaurant-Website",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -158,6 +164,7 @@ class App extends Component {
         Weblink: "https://mattkrebs2000.github.io/Gifs-with-GiphyAPI/",
         Gitlink: "https://github.com/mattkrebs2000/Gifs-with-GiphyAPI",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -171,6 +178,7 @@ class App extends Component {
         Weblink: "",
         Gitlink: "https://github.com/mattkrebs2000/LiriBot",
         Youtube: "https://youtu.be/UJJ3NZjYYas",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -184,6 +192,7 @@ class App extends Component {
         Weblink: "",
         Gitlink: "https://github.com/mattkrebs2000/OnlineStore",
         Youtube: "https://youtu.be/2OJAoMUCwxE",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -207,6 +216,7 @@ class App extends Component {
         Weblink: "https://braingaugefinalproject.herokuapp.com/",
         Gitlink: "https://github.com/mattkrebs2000/BrainGauge",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -220,6 +230,7 @@ class App extends Component {
         Weblink: "https://friendfinderapp2020.herokuapp.com/",
         Gitlink: "https://github.com/mattkrebs2000/FriendFinder",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -233,6 +244,7 @@ class App extends Component {
         Weblink: "https://burger-for-your-computer.herokuapp.com",
         Gitlink: "https://github.com/mattkrebs2000/reactburger",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -253,6 +265,7 @@ class App extends Component {
         Weblink: "https://oddsscraper.herokuapp.com/",
         Gitlink: "https://github.com/mattkrebs2000/mongoscraper",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -275,6 +288,7 @@ class App extends Component {
         Weblink: "https://little-league-logger.herokuapp.com/",
         Gitlink: "https://github.com/mattkrebs2000/Project-Two",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -287,6 +301,7 @@ class App extends Component {
         Weblink: "https://pbl-pd.com/",
         Gitlink: "",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -300,6 +315,7 @@ class App extends Component {
         Weblink: "https://agile-shelf-37421.herokuapp.com/",
         Gitlink: "https://github.com/mattkrebs2000/ClickyGame",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -313,6 +329,7 @@ class App extends Component {
         Weblink: "https://mattkrebs2000.github.io/Project-1/",
         Gitlink: "https://github.com/mattkrebs2000/Project-1",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -326,6 +343,7 @@ class App extends Component {
         Weblink: "",
         Gitlink: "",
         Youtube: "https://youtu.be/GfiKE1Dxj0A",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -339,6 +357,7 @@ class App extends Component {
         Weblink: "",
         Gitlink: "",
         Youtube: "",
+        WordPress: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
     ],

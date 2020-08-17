@@ -11,8 +11,8 @@ class FlipCard3 extends Component {
             <div className="flip-card-front">
               <img
                 className="image2"
-                src={this.props.image} 
-                alt="Avatar" 
+                src={this.props.image}
+                alt="Avatar"
                 style={{ width: "100%", height: "100%" }}
               />
             </div>
@@ -20,20 +20,42 @@ class FlipCard3 extends Component {
               <p style={{ fontSize: "20px" }}>{this.props.title}</p>
               <p style={backStyle}>{this.props.text}</p>
               <p style={{ color: "white !important" }}>
-                {this.props.weblink ? <a href={this.props.weblink}>Website </a> : <a></a>}
+                {this.props.weblink ? (
+                  <a href={this.props.weblink}>Website </a>
+                ) : (
+                  <a></a>
+                )}
 
-                {this.props.Gitlink ? <a
-                  className="btn btn-lg btn-social-icon btn-github btn-dark"
-                  href={this.props.Gitlink}
-                >
-                  <i className="fa fa-github fa-2x"></i>
-                </a> : <a></a>}
-                {this.props.Youtube ? <a 
-                  className="btn btn-lg btn-social-icon btn-youtube btn-danger"
-                  href={this.props.Youtube}
-                >
-                  <i className="fa fa-youtube fa-2x"></i>
-                </a> : <a></a>}
+                {this.props.Gitlink ? (
+                  <a
+                    className="btn btn-lg btn-social-icon btn-github btn-dark"
+                    href={this.props.Gitlink}
+                  >
+                    <i className="fa fa-github fa-2x"></i>
+                  </a>
+                ) : (
+                  <a></a>
+                )}
+                {this.props.Youtube ? (
+                  <a
+                    className="btn btn-lg btn-social-icon btn-youtube btn-danger"
+                    href={this.props.Youtube}
+                  >
+                    <i className="fa fa-youtube fa-2x"></i>
+                  </a>
+                ) : (
+                  <a></a>
+                )}
+                {this.props.WordPress ? (
+                  <a
+                    className="btn btn-lg btn-social-icon btn-wordpress btn-danger"
+                    href={this.props.WordPress}
+                  >
+                    <i className="fa fa-wordpress fa-2x"></i>
+                  </a>
+                ) : (
+                  <a></a>
+                )}
               </p>
             </div>
           </div>

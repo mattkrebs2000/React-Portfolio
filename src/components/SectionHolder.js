@@ -67,6 +67,7 @@ export default class SectionHolder extends Component {
                     weblink={info.Weblink}
                     Gitlink={info.Gitlink}
                     Youtube={info.Youtube}
+                    WordPress={info.WordPress}
                     HideShow={info.HideShow}
                   />
                 ))}

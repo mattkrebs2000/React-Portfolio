@@ -9,7 +9,7 @@ const Logo = () => {
     const anim = lottie.loadAnimation({
       container: animationContainer.current,
       renderer: "svg",
-      loop: true,
+      loop: false,
       autoplay: true,
       animationData: animation1,
     });

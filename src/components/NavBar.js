@@ -7,7 +7,7 @@ import Logo4 from "./Logo4.js";
 
 export default class NavBar extends Component {
   state = {
-    name: <Logo3 />,
+    name: <Logo4 />,
     number: 1,
   };
 

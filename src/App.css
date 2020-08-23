@@ -709,7 +709,7 @@ div.row.justify-content-center {
 
 .red {
  
-  opacity: 50%; 
+  opacity: 50% !important; 
 }
 
 figure.tint {

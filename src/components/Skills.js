@@ -26,7 +26,10 @@ e.target.style.overflow = "hidden";
           <figure
             id={this.props.id}
             className={this.props.highlight ? "tint red" : "tint"}
+            style={{ opacity: this.props.highlight ? "100%" : "60%",
+            }}
           >
+           
             <img
               className="photos"
               onMouseOver={changeBackground}

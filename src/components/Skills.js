@@ -25,7 +25,7 @@ e.target.style.overflow = "hidden";
         >
           <figure
             id={this.props.id}
-            className={this.props.highlight ? "tint red" : "tint"}
+            className="tint"
            style={{ opacity: this.props.highlight ? "100%" : "20%",
             }}
            

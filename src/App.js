@@ -405,7 +405,7 @@ class App extends Component {
         title: "React - Javascript library for building user interfaces.",
         Image: "../images/react.png",
         alt: "react",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -413,7 +413,7 @@ class App extends Component {
         title: "Javascript",
         Image: "../images/javascript.png",
         alt: "Javascript",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -421,7 +421,7 @@ class App extends Component {
         title: "Bootstrap - Styling framework.",
         Image: "../images/bootstrap.png",
         alt: "bootstrap",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -429,7 +429,7 @@ class App extends Component {
         title: "HTML",
         Image: "../images/html.png",
         alt: "html",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -437,7 +437,7 @@ class App extends Component {
         title: "CSS",
         Image: "../images/css.png",
         alt: "css",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -445,7 +445,7 @@ class App extends Component {
         title: "jquery",
         Image: "../images/jquery.png",
         alt: "jquery",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -453,7 +453,7 @@ class App extends Component {
         title: "mongoDB database",
         Image: "../images/mongoDB.png",
         alt: "mongoDB",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -461,7 +461,7 @@ class App extends Component {
         title: "mySQL database",
         Image: "../images/mysql.png",
         alt: "mysql",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -469,7 +469,7 @@ class App extends Component {
         title: "Express.js",
         Image: "../images/express.png",
         alt: "express",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -477,7 +477,7 @@ class App extends Component {
         title: "Node.js",
         Image: "../images/node.png",
         alt: "node.js",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -485,7 +485,7 @@ class App extends Component {
         title: "WordPress",
         Image: "../images/wordpress.png",
         alt: "Wordpress",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -493,7 +493,7 @@ class App extends Component {
         title: "php",
         Image: "../images/php.png",
         alt: "php",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -501,7 +501,7 @@ class App extends Component {
         title: "Video Editing",
         Image: "../images/VideoEditing.png",
         alt: "videoediting",
-        highlight: 1,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -509,7 +509,7 @@ class App extends Component {
         title: "Adobe PhotoShop",
         Image: "../images/photoshop.png",
         alt: "Adobe PhotoShop",
-        highlight:1,
+        highlight:true,
       },
       {
         id: uuid(),
@@ -517,7 +517,7 @@ class App extends Component {
         title: "Adobe After Effects",
         Image: "../images/AfterEffects.png",
         alt: "Adobe AfterEffects",
-        highlight: 1,
+        highlight: true,
       },
 
       {
@@ -526,7 +526,7 @@ class App extends Component {
         title: "Show All",
         Image: "../images/all.png",
         alt: "react",
-        highlight: 1,
+        highlight: true,
       },
     ],
   };

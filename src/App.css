@@ -513,8 +513,7 @@ nav{
   margin-bottom: 10px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px;
-  
-  
+   
 }
 
 .tint:before {
@@ -528,6 +527,7 @@ nav{
   /* background: rgba(33,116,135, .5); */
   opacity: 95% !important;
   transition: all 2s linear;
+ 
 }
 
 
@@ -564,6 +564,13 @@ transform: scale(2);
 .tint{
 
   overflow:hidden;
+
+ 
+}
+
+.Startingshade {
+
+  opacity: 20%;
 
 }
 
@@ -710,7 +717,8 @@ div.row.justify-content-center {
 
 
 figure.tint {
-margin: 5px
+margin: 5px;
+
 }
 
 .tint:before {
@@ -723,6 +731,7 @@ margin: 5px
     right: 0;
     opacity: 95% !important;
     transition: all 2s linear;
+  
 }
 
 .Lottie {

@@ -69,6 +69,7 @@ export default class SectionHolder extends Component {
                     Youtube={info.Youtube}
                     WordPress={info.WordPress}
                     HideShow={info.HideShow}
+                    Android={info.Android}
                   />
                 ))}
               </section>

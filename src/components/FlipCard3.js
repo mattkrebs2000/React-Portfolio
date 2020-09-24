@@ -56,6 +56,16 @@ class FlipCard3 extends Component {
                 ) : (
                   <a></a>
                 )}
+                {this.props.Android ? (
+                  <a
+                    className="btn btn-lg btn-social-icon btn-android btn-success"
+                    href={this.props.Android}
+                  >
+                    <i class="fa fa-2x fa-android" aria-hidden="true"></i>
+                  </a>
+                ) : (
+                  <a></a>
+                )}
               </p>
             </div>
           </div>

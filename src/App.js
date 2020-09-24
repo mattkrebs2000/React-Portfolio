@@ -104,6 +104,7 @@ class App extends Component {
           "https://github.com/mattkrebs2000/mywordpresstemplatewordguessgame",
         Youtube: "",
         WordPress: "https://protected-lowlands-52812.herokuapp.com/",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -127,6 +128,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/wordpressweathertrivia",
         Youtube: "",
         WordPress: "https://polar-mesa-76312.herokuapp.com/",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -141,6 +143,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/Rock-Paper-Scissors",
         Youtube: "",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -164,6 +167,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/WordPressDiamondCollector",
         Youtube: "",
         WordPress: "https://salty-wildwood-84039.herokuapp.com/",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -178,6 +182,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/Restaurant-Website",
         Youtube: "",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -201,6 +206,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/WordPressDiamondCollector",
         Youtube: "",
         WordPress: "https://immense-temple-79839.herokuapp.com/",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -215,6 +221,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/LiriBot",
         Youtube: "https://youtu.be/UJJ3NZjYYas",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -229,6 +236,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/OnlineStore",
         Youtube: "https://youtu.be/2OJAoMUCwxE",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -253,6 +261,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/BrainGauge",
         Youtube: "",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -267,6 +276,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/FriendFinder",
         Youtube: "",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -281,6 +291,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/reactburger",
         Youtube: "",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -302,6 +313,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/mongoscraper",
         Youtube: "",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -325,6 +337,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/Project-Two",
         Youtube: "",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -338,6 +351,7 @@ class App extends Component {
         Gitlink: "",
         Youtube: "",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -345,13 +359,14 @@ class App extends Component {
         nameofID: "ClickyGame",
         frontImage: "../images/clickygame.png",
         title2: "React Clicky Game",
-        skill: ["react", "javascript", "node"],
+        skill: ["reactnative", "react", "javascript", "node"],
         text:
           "This is a React App which challenges users to not click on a famous person twice.",
         Weblink: "https://agile-shelf-37421.herokuapp.com/",
         Gitlink: "https://github.com/mattkrebs2000/ClickyGame",
         Youtube: "",
-        WordPress: "",
+        WordPress:"",
+        Android: "https://play.google.com/store/apps/details?id=com.memorygame1234.game",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -366,6 +381,7 @@ class App extends Component {
         Gitlink: "https://github.com/mattkrebs2000/Project-1",
         Youtube: "",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -380,6 +396,7 @@ class App extends Component {
         Gitlink: "",
         Youtube: "https://youtu.be/GfiKE1Dxj0A",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
       {
@@ -394,6 +411,7 @@ class App extends Component {
         Gitlink: "",
         Youtube: "",
         WordPress: "",
+        Android: "",
         HideShow: "col-md-6 col-xl-3 show",
       },
     ],
@@ -509,7 +527,7 @@ class App extends Component {
         title: "Adobe PhotoShop",
         Image: "../images/photoshop.png",
         alt: "Adobe PhotoShop",
-        highlight:true,
+        highlight: true,
       },
       {
         id: uuid(),
@@ -526,6 +544,14 @@ class App extends Component {
         title: "Show All",
         Image: "../images/all.png",
         alt: "react",
+        highlight: true,
+      },
+      {
+        id: uuid(),
+        nameofid: "reactnative",
+        title: "react native",
+        Image: "../images/ReactNative.png",
+        alt: "ReactNative",
         highlight: true,
       },
     ],

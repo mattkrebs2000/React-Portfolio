@@ -438,7 +438,7 @@ class App extends Component {
         nameofID: "starwars",
         frontImage: "../images/Starwars.png",
         title2: "Stare Wars API",
-        skill: ["javascipt", "node", "reactnative", "react", "showall"],
+        skill: ["javascript", "node", "reactnative", "react", "showall"],
         text:
           "This Search Engine App (mobile/web) uses the SWAPI (Star Wars API) to display SW characters - then allows for filtering of the data by gender, height or weight (a number), or by name.",
         Weblink: "https://starwarssearch-d4d4b.web.app/",

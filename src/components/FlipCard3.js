@@ -31,11 +31,28 @@ class FlipCard3 extends Component {
                     className="btn btn-lg btn-social-icon btn-github btn-dark"
                     href={this.props.Gitlink}
                   >
-                    <i className="fa fa-github fa-2x"></i>
+                    <i
+                      className="fa fa-github fa-2x"
+                      title="Web App"
+                    ></i>
                   </a>
                 ) : (
                   <a></a>
                 )}
+                {this.props.Gitlink2 ? (
+                  <a
+                    className="btn btn-lg btn-social-icon btn-github btn-dark"
+                    href={this.props.Gitlink2}
+                  >
+                    <i
+                      className="fa fa-github fa-2x"
+                      title="Mobile App"
+                    ></i>
+                  </a>
+                ) : (
+                  <a></a>
+                )}
+
                 {this.props.Youtube ? (
                   <a
                     className="btn btn-lg btn-social-icon btn-youtube btn-danger"

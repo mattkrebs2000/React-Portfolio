@@ -70,6 +70,7 @@ export default class SectionHolder extends Component {
                     WordPress={info.WordPress}
                     HideShow={info.HideShow}
                     Android={info.Android}
+                    Gitlink2={info.Gitlink2}
                   />
                 ))}
               </section>

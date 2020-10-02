@@ -106,6 +106,7 @@ class App extends Component {
         WordPress: "https://protected-lowlands-52812.herokuapp.com/",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -130,6 +131,7 @@ class App extends Component {
         WordPress: "https://polar-mesa-76312.herokuapp.com/",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -145,6 +147,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -169,6 +172,7 @@ class App extends Component {
         WordPress: "https://salty-wildwood-84039.herokuapp.com/",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -184,6 +188,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -208,6 +213,7 @@ class App extends Component {
         WordPress: "https://immense-temple-79839.herokuapp.com/",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -223,6 +229,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -238,6 +245,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -263,6 +271,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -278,6 +287,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -293,6 +303,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -315,6 +326,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -339,6 +351,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -353,6 +366,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -361,13 +375,15 @@ class App extends Component {
         title2: "React Clicky Game",
         skill: ["reactnative", "react", "javascript", "node"],
         text:
-          "This is a React App which challenges users to not click on a famous person twice.",
+          "This is a React App (mobile/web) which challenges users to not click on a famous person twice.",
         Weblink: "https://agile-shelf-37421.herokuapp.com/",
         Gitlink: "https://github.com/mattkrebs2000/ClickyGame",
         Youtube: "",
-        WordPress:"",
-        Android: "https://play.google.com/store/apps/details?id=com.memorygame1234.game",
+        WordPress: "",
+        Android:
+          "https://play.google.com/store/apps/details?id=com.memorygame1234.game",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "https://github.com/mattkrebs2000/ReactNativeMemoryGame",
       },
       {
         id: uuid(),
@@ -383,6 +399,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -398,6 +415,7 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
       },
       {
         id: uuid(),
@@ -413,6 +431,23 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "",
+      },
+      {
+        id: uuid(),
+        nameofID: "starwars",
+        frontImage: "../images/Starwars.png",
+        title2: "Stare Wars API",
+        skill: ["javascipt", "node", "reactnative", "react", "showall"],
+        text:
+          "This Search Engine App (mobile/web) uses the SWAPI (Star Wars API) to display SW characters - then allows for filtering of the data by gender, height or weight (a number), or by name.",
+        Weblink: "https://starwarssearch-d4d4b.web.app/",
+        Gitlink: "https://github.com/mattkrebs2000/StarWarsApiReactApp",
+        Youtube: "",
+        WordPress: "",
+        Android: "",
+        HideShow: "col-md-6 col-xl-3 show",
+        Gitlink2: "https://github.com/mattkrebs2000/SWAPIReactNative",
       },
     ],
 
@@ -423,6 +458,14 @@ class App extends Component {
         title: "React - Javascript library for building user interfaces.",
         Image: "../images/react.png",
         alt: "react",
+        highlight: true,
+      },
+      {
+        id: uuid(),
+        nameofid: "reactnative",
+        title: "react native",
+        Image: "../images/ReactNative.png",
+        alt: "ReactNative",
         highlight: true,
       },
       {
@@ -544,14 +587,6 @@ class App extends Component {
         title: "Show All",
         Image: "../images/all.png",
         alt: "react",
-        highlight: true,
-      },
-      {
-        id: uuid(),
-        nameofid: "reactnative",
-        title: "react native",
-        Image: "../images/ReactNative.png",
-        alt: "ReactNative",
         highlight: true,
       },
     ],

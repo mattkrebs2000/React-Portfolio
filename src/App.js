@@ -262,6 +262,7 @@ class App extends Component {
           "node",
           "react",
           "showall",
+          "reactnative"
         ],
         text:
           "This React App measures your mental responsiveness and tells you when you are at your best.",
@@ -271,7 +272,8 @@ class App extends Component {
         WordPress: "",
         Android: "",
         HideShow: "col-md-6 col-xl-3 show",
-        Gitlink2: "",
+        Gitlink2:
+          "https://github.com/mattkrebs2000/ReactNativeBrainGaugeFolder",
       },
       {
         id: uuid(),
